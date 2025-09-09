@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">मुद्रा सहायक</string>
+    <string name="logout">लॉग आउट</string>
+
+    <string name="welcome_message">एआई ऋण एजेंट में आपका स्वागत है</string>
+    <string name="choose_your_language">अपनी भाषा चुनें</string>
+
+    <string name="speak_now">अब बोलें…</string>
+
+    <string name="permission_mic_title">माइक्रोफ़ोन की अनुमति</string>
+    <string name="permission_mic_message">वॉइस इनपुट का उपयोग करने के लिए, ऐप को आपके माइक्रोफ़ोन तक पहुंच की आवश्यकता है। क्या यह ठीक है?</string>
+    <string name="permission_sms_title">एसएमएस की अनुमति</string>
+    <string name="permission_sms_message">औपचारिक दस्तावेजों के बिना आपके वित्तीय स्वास्थ्य का विश्लेषण करने के लिए, हमें आपके लेनदेन संबंधी एसएमएस पढ़ने की जरूरत है। क्या यह ठीक है?</string>
+    <string name="permission_button_ok">ठीक है</string>
+    <string name="permission_button_cancel">रद्द करें</string>
+
+    <string name="go_to_home">होम पर जाएं</string>
+
+
+    <string name="bank_details_title">बैंक खाते का विवरण</string>
+    <string name="bank_details_subtitle">ऋण संवितरण के लिए कृपया अपने बैंक का विवरण प्रदान करें।</string>
+    <string name="loan_amount_approved">स्वीकृत ऋण राशि</string>
+    <string name="account_holder_name_hint">खाता धारक का नाम</string>
+    <string name="account_number_hint">बैंक खाता संख्या</string>
+    <string name="ifsc_code_hint">IFSC कोड</string>
+    <string name="submit_details">विवरण जमा करें</string>
+    <string name="details_submitted_title">विवरण सफलतापूर्वक जमा किया गया</string>
+    <string name="details_submitted_message">धन्यवाद। आपकी ऋण राशि 3-5 व्यावसायिक घंटों के भीतर आपके बैंक खाते में स्थानांतरित कर दी जाएगी।</string>
+
+    <!-- Chat Screen -->
+    <string name="type_your_message">अपना संदेश लिखें…</string>
+    <string name="send_button">भेजें बटन</string>
+    <string name="bot_icon">बॉट आइकन</string>
+    <string name="app_logo">ऐप लोगो</string>
+
+    <!-- Conversational Flow -->
+    <string name="bot_greeting">नमस्ते! मैं आपका ऋण सहायक हूँ। आज आपको कितने ऋण की आवश्यकता है?</string>
+    <string name="bot_ask_pan">धन्यवाद। आगे बढ़ने के लिए, कृपया अपना पैन नंबर प्रदान करें। आप इसे टाइप कर सकते हैं या अपना पैन कार्ड स्कैन करने के लिए कैमरा आइकन पर टैप कर सकते हैं।</string>
+    <string name="bot_ask_sms_permission">बहुत बढ़िया! वेतन पर्ची के बिना आपकी पात्रता की जांच करने के लिए, मुझे आपके फोन पर आपके लेन-देन संबंधी SMS का सुरक्षित रूप से विश्लेषण करने की आवश्यकता है। यह 100% सुरक्षित है और आपके व्यक्तिगत संदेशों को अनदेखा किया जाएगा। क्या मैं आगे बढ़ सकता हूँ?</string>
+    <string name="bot_sms_permission_granted">अनुमति के लिए धन्यवाद। अब आपकी वित्तीय जानकारी का विश्लेषण किया जा रहा है। इसमें बस एक पल लगेगा।</string>
+    <string name="bot_sms_permission_denied">मैं समझता हूँ। दुर्भाग्य से, इस अनुमति के बिना, मैं इस समय आपकी ऋण पात्रता का आकलन नहीं कर सकता।</string>
+    <string name="bot_processing_pan">समझ गया। आपका पैन %1$s है। कृपया एक क्षण प्रतीक्षा करें।</string>
+    <string name="bot_invalid_amount">कृपया एक वैध ऋण राशि दर्ज करें (उदाहरण के लिए, 10000)।</string>
+    <string name="bot_invalid_pan">यह एक वैध पैन नंबर नहीं लगता है। कृपया पुन: प्रयास करें।</string>
+    <string name="user_reply_yes">हाँ</string>
+    <string name="user_reply_no">नहीं</string>
+    <string name="user_reply_scan_pan">पैन कार्ड स्कैन करें</string>
+
+    <!-- Loan Offer Screen -->
+    <string name="congratulations">बधाई हो!</string>
+    <string name="loan_offer_subtitle">आप ऋण के लिए पात्र हैं।</string>
+    <string name="loan_rejected_title">आवेदन समीक्षाधीन है</string>
+    <string name="loan_rejected_subtitle">हमें खेद है, हम इस समय आपके लिए ऋण स्वीकृत नहीं कर सके। कृपया कुछ समय बाद पुनः प्रयास करें।</string>
+    <string name="loan_amount">ऋण राशि</string>
+    <string name="interest_rate">ब्याज दर (प्रति वर्ष)</string>
+    <string name="monthly_emi">मासिक ईएमआई</string>
+    <string name="accept_and_continue">स्वीकार करें और जारी रखें</string>
+    <string name="reject_offer">प्रस्ताव अस्वीकार करें</string>
+    <string name="offer_status_icon">ऑफ़र स्थिति आइकन</string>
+
+</resources>

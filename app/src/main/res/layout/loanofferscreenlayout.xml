@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/lightgreenbgimg"
+    tools:context=".LoanOfferActivity">
+
+    <ImageView
+        android:id="@+id/offerStatusIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/ic_dialog_info"
+        app:tint="#4CAF50"
+        android:contentDescription="@string/offer_status_icon"/>
+
+    <TextView
+        android:id="@+id/offerTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations"
+        android:textSize="26sp"
+        android:textColor="#1A237E"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/offerSubtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loan_offer_subtitle"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/offerDetailsCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#E8EAF6"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loan_amount"
+                android:textSize="16sp"
+                android:textColor="#555555"/>
+
+            <TextView
+                android:id="@+id/loanAmountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="₹ 25,000"
+                android:textSize="28sp"
+                android:textColor="#1A237E"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BDBDBD"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/interest_rate"
+                        android:textSize="16sp"
+                        android:textColor="#555555"/>
+                    <TextView
+                        android:id="@+id/interestRateTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="18% p.a."
+                        android:textSize="20sp"
+                        android:textColor="#1A237E"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="end">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/monthly_emi"
+                        android:textSize="16sp"
+                        android:textColor="#555555"/>
+                    <TextView
+                        android:id="@+id/emiTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="₹ 2,512"
+                        android:textSize="20sp"
+                        android:textColor="#1A237E"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/acceptButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/accept_and_continue"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:cornerRadius="12dp" />
+
+    <Button
+        android:id="@+id/rejectButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/reject_offer"
+        android:backgroundTint="#E8EAF6"
+        android:textColor="#1A237E"
+        android:textSize="18sp"
+        app:cornerRadius="12dp" />
+
+
+</LinearLayout>

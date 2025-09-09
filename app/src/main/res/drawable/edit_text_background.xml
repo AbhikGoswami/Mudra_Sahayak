@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shape for the message input field -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- A light grey background for the input field -->
+    <solid android:color="#F1F3F6" />
+
+    <!-- Fully rounded corners for a modern, pill-shaped look -->
+    <corners android:radius="24dp" />
+
+    <!-- A subtle border to define the input area -->
+    <stroke
+        android:width="1dp"
+        android:color="#D1D9E0" />
+
+</shape>

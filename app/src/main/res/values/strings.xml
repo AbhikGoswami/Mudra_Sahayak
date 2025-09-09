@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">Mudra Sahayak</string>
+    <string name="logout">Logout</string>
+
+    <string name="welcome_message">Welcome to AI Loan Agent</string>
+    <string name="choose_your_language">Choose Your Language</string>
+
+    <string name="speak_now">Speak now…</string>
+
+    <string name="permission_mic_title">Microphone Permission</string>
+    <string name="permission_mic_message">To use voice input, the app needs access to your microphone. Is that okay?</string>
+    <string name="permission_sms_title">SMS Permission</string>
+    <string name="permission_sms_message">To analyze your financial health without formal documents, we need to read your transactional SMS. Is that okay?</string>
+    <string name="permission_button_ok">Okay</string>
+    <string name="permission_button_cancel">Cancel</string>
+
+    <string name="go_to_home">Go to Home</string>
+
+
+    <string name="bank_details_title">Bank Account Details</string>
+    <string name="bank_details_subtitle">Please provide your bank details for loan disbursal.</string>
+    <string name="loan_amount_approved">Loan Amount Approved</string>
+    <string name="account_holder_name_hint">Account Holder\'s Name</string>
+    <string name="account_number_hint">Bank Account Number</string>
+    <string name="ifsc_code_hint">IFSC Code</string>
+    <string name="submit_details">Submit Details</string>
+    <string name="details_submitted_title">Details Submitted Successfully</string>
+    <string name="details_submitted_message">Thank you. Your loan amount will be transferred to your bank account within 3-5 business hours.</string>
+
+    <!-- Chat Screen -->
+    <string name="type_your_message">Type your message…</string>
+    <string name="send_button">Send Button</string>
+    <string name="bot_icon">Bot Icon</string>
+    <string name="app_logo">App Logo</string>
+
+    <!-- Conversational Flow -->
+    <string name="bot_greeting">Namaste! I am your loan assistant. How much loan do you need today?</string>
+    <string name="bot_ask_pan">Thank you. To proceed, please provide your PAN number. You can type it or tap the camera icon to scan your PAN card.</string>
+    <string name="bot_ask_sms_permission">Great! To check your eligibility without salary slips, I need to securely analyze your transactional SMS on your phone. This is 100% safe and your personal messages will be ignored. May I proceed?</string>
+    <string name="bot_sms_permission_granted">Thank you for the permission. Analyzing your financial information now. This will only take a moment.</string>
+    <string name="bot_sms_permission_denied">I understand. Unfortunately, without this permission, I cannot assess your loan eligibility at this time.</string>
+    <string name="bot_processing_pan">Understood. Your PAN is %1$s. Please wait a moment.</string>
+    <string name="bot_invalid_amount">Please enter a valid loan amount (e.g., 10000).</string>
+    <string name="bot_invalid_pan">That doesn\'t seem like a valid PAN number. Please try again.</string>
+    <string name="user_reply_yes">Yes</string>
+    <string name="user_reply_no">No</string>
+    <string name="user_reply_scan_pan">Scan PAN Card</string>
+
+    <!-- Loan Offer Screen -->
+    <string name="congratulations">Congratulations!</string>
+    <string name="loan_offer_subtitle">You are eligible for a loan.</string>
+    <string name="loan_rejected_title">Application Under Review</string>
+    <string name="loan_rejected_subtitle">We are sorry, we couldn\'t approve a loan for you at this moment. Please try again after some time.</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="interest_rate">Interest Rate (p.a.)</string>
+    <string name="monthly_emi">Monthly EMI</string>
+    <string name="accept_and_continue">Accept and Continue</string>
+    <string name="reject_offer">Reject Offer</string>
+    <string name="offer_status_icon">Offer Status Icon</string>
+
+</resources>

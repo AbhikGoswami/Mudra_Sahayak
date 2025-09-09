@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shape for the bot's chat bubble (left side) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- A clean, white background for a professional look -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Rounded corners mirrored from the user's bubble -->
+    <corners
+        android:bottomLeftRadius="8dp"
+        android:bottomRightRadius="24dp"
+        android:topLeftRadius="24dp"
+        android:topRightRadius="24dp" />
+
+    <!-- A subtle stroke to make the bubble stand out from the background -->
+    <stroke
+        android:width="1dp"
+        android:color="#E0E0E0" />
+
+</shape>

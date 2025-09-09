@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1019224366062",
+    "project_id": "mudra-sahayak",
+    "storage_bucket": "mudra-sahayak.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019224366062:android:d1b44a66cdbabee80f0cff",
+        "android_client_info": {
+          "package_name": "com.abhik.mudrasahayak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEAIAKhpiWV0M6wQLul3R7twSZA_ZAu2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
